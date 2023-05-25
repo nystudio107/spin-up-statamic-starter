@@ -1,0 +1,9 @@
+{
+    "name": "nystudio107/spin-up-statamic-starter",
+    "extra": {
+        "statamic": {
+            "name": "Spin Up Statamic Starter",
+            "description": "Starter kit to add Spin Up Statamic to your existing Statamic project"
+        }
+    }
+}
