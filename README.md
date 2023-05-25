@@ -20,6 +20,18 @@ You can install the Spin Up Statamic scaffolding into an existing project by run
 php please starter-kit:install nystudio107/spin-up-statamic-starter
 ```
 
+**N.B.** Spin Up Statamic will only copy the `example.env` to `.env` if it doesn't exist already.
+
+If you have an existing `.env` file, you will need to manually copy & paste the following lines into it:
+
+```
+# The port to start looking for unused ports from; it will increment until it finds an unused port
+INITIAL_SERVER_PORT=8050
+# Uncomment DEV_SERVER_PORT if you want to instead explicitly set the port
+#DEV_SERVER_PORT=8050
+APP_URL="http://localhost:${DEV_SERVER_PORT}/"
+```
+
 Please see the [Spin Up Statamic](https://github.com/nystudio107/spin-up-statamic) repository for more information on using Spin Up Statamic.
 
 ## To Do
