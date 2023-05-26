@@ -30,6 +30,8 @@ INITIAL_SERVER_PORT=8050
 # Uncomment DEV_SERVER_PORT if you want to instead explicitly set the port
 #DEV_SERVER_PORT=8050
 APP_URL="http://localhost:${DEV_SERVER_PORT}/"
+STATAMIC_CP_USER="demo@statamic.com"
+STATAMIC_CP_PASSWORD="password"
 ```
 
 Please see the [Spin Up Statamic](https://github.com/nystudio107/spin-up-statamic) repository for more information on using Spin Up Statamic.
